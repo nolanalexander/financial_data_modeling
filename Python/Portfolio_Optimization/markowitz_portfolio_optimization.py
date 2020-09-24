@@ -16,9 +16,9 @@ from setup_stock_data import convert_to_log_growth, calc_mean_cov_matrix_and_siz
 from annual_conversion import convert_to_annual_returns
 
 
-# Calculates the Markowitz Efficient Frontier
+# Implementation of the Markowtiz Portfolio Model to solve for the Efficient Frontier
 # by performing mean-variance portfolio optimization
-# shorting_allowed controls the lower bound
+# shorting_allowed controls the lower bound, 0 or -1
 def calc_markowitz_efficient_frontier(stock_growth_means, cov_matrix, shorting_allowed):
     debug = False
     num_assets = len(stock_growth_means)

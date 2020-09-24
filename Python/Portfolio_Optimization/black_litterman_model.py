@@ -18,6 +18,9 @@ mkt_rf_data_file_source = directory + '/Data/F-F_Research_Data_Factors.csv'
 # Mkt-RF Data Source: https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html
 
 
+# Implementation of the Black-Litterman Model.  The model uses a weighted combination of the market 
+# capitalization views and investor's views to output better estimates of the excess expected returns
+
 # Finds the market equilibrium portfolio weights based on market capitalization
 def find_market_equilibrium_weights(assets):
     cur_value_adj_close, shares_outstanding = read_in_cur_price_and_outstanding_shares(assets)
