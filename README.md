@@ -4,13 +4,16 @@
 This repository consists of full code for modeling financial data in Python with all the necessary steps to implement these models in practice. 
 
 ## From Scratch vs Implementing Specific Packages
-The Markowitz Portfolio Optimization, Black-Litterman model, and modules to set up or transform the portfolio parameters were implemented from scratch. The rest were examples demonstrating the use of specific packages such as pymc3 and arch, but included the full code to allow implementation of these models in practice.
+The Markowitz Portfolio Optimization, Black-Litterman model, and modules to set up or transform the portfolio parameters were implemented from scratch with the SciPy optimizer. The rest were examples demonstrating the use of specific packages such as pymc3 and arch, but included the full code to allow implementation of these models in practice.
 
 ## Repository Structure
-The repository is divided into three sections: Bayesian Inference, Portfolio Optimization, and Time Series Analysis.  
+The python directory is divided into three subdirectories: Bayesian Inference, Portfolio Optimization, and Time Series Analysis.  
 
-Bayesian Inference contains an example of using pymc3 to forecast the posterior distribution.  
+### Bayesian Inference 
+Contains an example of using pymc3 to forecast the posterior distribution and distribution fitting with SciPy.
 
-Portfolio Optimization includes implementations of Markowitz Mean-Variance optimization, the Black-Litterman Model, modules to set up or transform the data, and Hierarchical Clustering using scikit-learn.  
+### Portfolio Optimization
+Contains implementations of Markowitz Mean-Variance optimization, the Black-Litterman Model, modules to set up and transform the data, and Hierarchical Clustering using scikit-learn.
 
-Time Series Analysis contains an example of a GARCH model with a window rolling forecast to measure RMSE using arch.
+### Time Series Analysis 
+Contains an example of a GARCH model with a window rolling forecast to measure RMSE using arch.
