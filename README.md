@@ -1,7 +1,7 @@
 # financial_data_modeling
 
 ## Purpose
-This repository consists of the full code for modeling certain financial data in Python including all the necessary code to implement these models in practice. 
+This repository consists of the full code to model certain financial data in Python including all the necessary code to implement these models in practice. 
 
 ## From Scratch vs Implementing Specific Packages
 The Markowitz Portfolio Optimization, Black-Litterman model, and modules to set up or transform the portfolio parameters were implemented from scratch with the SciPy optimizer. The rest were examples demonstrating the use of specific packages such as pymc3 and arch, but included the full code to allow implementation of these models in practice.
