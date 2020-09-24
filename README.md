@@ -9,11 +9,11 @@ The Markowitz Portfolio Optimization, Black-Litterman model, and modules to set 
 ## Repository Structure
 The python directory is divided into three subdirectories: Bayesian Inference, Portfolio Optimization, and Time Series Analysis.  
 
-#### Bayesian Inference 
+### Bayesian Inference 
 Contains an example of using pymc3 to forecast the posterior distribution and distribution fitting with SciPy.
 
-#### Portfolio Optimization
+### Portfolio Optimization
 Contains implementations of Markowitz Mean-Variance optimization, the Black-Litterman Model, modules to set up and transform the data, and Hierarchical Clustering using scikit-learn.
 
-#### Time Series Analysis 
+### Time Series Analysis 
 Contains an example of a GARCH model with a window rolling forecast to measure RMSE using arch.
